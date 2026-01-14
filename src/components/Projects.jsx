@@ -34,8 +34,8 @@ const projects = [
     description: "This is my portfolio website, developed with HTML, React.js, and Tailwind CSS, highlighting my skills, projects, and personal information.",
     fullDescription: "This is my portfolio website, developed with HTML, React.js, and Tailwind CSS, highlighting my skills, projects, and personal information.",
     techStack: ["React.js", "Tailwind CSS","Html"],
-    liveLink: "#",
-    clientRepo: "#"
+    liveLink: "",
+    clientRepo: "https://github.com/Tanzim313/Tanzim-Portfolio"
   },
 ];
 
