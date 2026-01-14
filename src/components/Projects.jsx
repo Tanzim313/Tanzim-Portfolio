@@ -91,11 +91,11 @@ const projects = [
       {/* Modal / Details Section */}
       {selectedProject && (
         <div
-          className="fixed inset-0 bg-black/50 flex justify-center items-center z-50"
+          className="fixed inset-0 bg-black/50 flex justify-center items-center z-50 overflow-x-scroll"
           onClick={() => setSelectedProject(null)}
         >
           <div
-            className="bg-white dark:bg-gray-900 max-w-3xl w-full p-6 rounded-lg shadow-lg relative"
+           className="bg-white dark:bg-gray-900 max-w-3xl w-full max-h-[90vh] p-6 rounded-lg shadow-lg relative overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
             <button
