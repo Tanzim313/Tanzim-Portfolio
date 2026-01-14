@@ -10,7 +10,7 @@ const  Hero=()=> {
 
     <section
       id="hero"
-      className="h-screen flex flex-col justify-center items-center text-center relative overflow-hidden"
+      className="mt-20 sm:mt-0 h-screen flex flex-col justify-center items-center text-center relative overflow-hidden"
     >
       {/* Gradient Background */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-teal-500 via-green-400 to-emerald-500 animate-gradient-x -z-20"></div>

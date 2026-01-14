@@ -34,7 +34,7 @@ const projects = [
     description: "This is my portfolio website, developed with HTML, React.js, and Tailwind CSS, highlighting my skills, projects, and personal information.",
     fullDescription: "This is my portfolio website, developed with HTML, React.js, and Tailwind CSS, highlighting my skills, projects, and personal information.",
     techStack: ["React.js", "Tailwind CSS","Html"],
-    liveLink: "",
+    liveLink: "https://darling-boba-713637.netlify.app/",
     clientRepo: "https://github.com/Tanzim313/Tanzim-Portfolio"
   },
 ];
@@ -45,7 +45,7 @@ const projects = [
   return (
     <section id="projects" className="py-20 px-6 bg-gray-100">
       <h2
-        className="text-3xl font-bold text-center mb-12
+        className="text-4xl font-bold text-center mb-12
                    bg-gradient-to-r from-teal-500 to-emerald-500
                    bg-clip-text text-transparent"
       >
@@ -78,7 +78,7 @@ const projects = [
                 ))}
               </div>
               <button
-                className="px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition"
+                className="px-4 py-2 bg-gradient-to-r from-teal-600 via-green-500 to-emerald-400  text-white rounded hover:bg-teal-600 transition"
                 onClick={() => setSelectedProject(project)}
               >
                 View Details
@@ -126,7 +126,7 @@ const projects = [
               <a
                 href={selectedProject.clientRepo}
                 target="_blank"
-                className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+                className="px-4 py-2 bg-gradient-to-r from-teal-600 via-green-500 to-emerald-400  text-white rounded hover:bg-blue-600 transition"
               >
                 GitHub
               </a>
